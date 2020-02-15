@@ -20,7 +20,7 @@ describe('CalculatorDemo',function(){
         homepage.enterSecondNumber('13');
         homepage.clickGo1();  //not a function(Failing scenario)
         homepage.verifyResult('25');
-        browser.sleep(5000)
+        browser.sleep(3000)
         
     })
 })
